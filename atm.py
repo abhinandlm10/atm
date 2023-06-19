@@ -2,7 +2,7 @@
 import mysql.connector
 
 #connecting python with sql database
-connector=mysql.connector.connect(host="localhost",user="root",password="Sreeganga@123",database="atm")
+connector=mysql.connector.connect(host="localhost",user="root",password="**********",database="atm")
  
  #creating a cursor object
 cursor=connector.cursor()
